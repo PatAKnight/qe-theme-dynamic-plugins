@@ -37,6 +37,13 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
 
+import {
+  lightThemeProvider,
+  LightIcon,
+  DarkIcon,
+  darkThemeProvider,
+} from '@internal/backstage-plugin-qe-theme';
+
 const app = createApp({
   apis,
   bindRoutes({ bind }) {
@@ -59,6 +66,22 @@ const app = createApp({
   components: {
     SignInPage: props => <SignInPage {...props} auto providers={['guest']} />,
   },
+  themes: [
+    {
+      id: 'my-theme',
+      title: 'My custom light theme',
+      variant: 'light',
+      icon: <LightIcon />,
+      Provider: lightThemeProvider,
+    },
+    {
+      id: 'my-theme-dark',
+      title: 'My custom dark theme',
+      variant: 'dark',
+      icon: <DarkIcon />,
+      Provider: darkThemeProvider,
+    },
+  ],
 });
 
 const routes = (
