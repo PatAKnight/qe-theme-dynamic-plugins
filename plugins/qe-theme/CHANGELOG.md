@@ -1,5 +1,11 @@
 # @pataknight/backstage-plugin-rhdh-qe-theme
 
+## 0.5.1
+
+### Patch Changes
+
+- e21cb4a: Fixes the export-dynamic command in now pass --in-place instead of --clean
+
 ## 0.5.0
 
 ### Minor Changes
