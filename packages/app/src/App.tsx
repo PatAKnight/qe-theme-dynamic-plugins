@@ -42,7 +42,7 @@ import {
   LightIcon,
   DarkIcon,
   darkThemeProvider,
-} from '@internal/backstage-plugin-qe-theme';
+} from '@pataknight/backstage-plugin-rhdh-qe-theme';
 
 const app = createApp({
   apis,

@@ -1,5 +1,5 @@
 {
-  "name": "@internal/backstage-plugin-qe-theme",
+  "name": "@pataknight/backstage-plugin-rhdh-qe-theme",
   "version": "0.1.0",
   "main": "src/index.ts",
   "types": "src/index.ts",
