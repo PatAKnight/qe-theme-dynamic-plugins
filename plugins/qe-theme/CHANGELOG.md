@@ -1,5 +1,11 @@
 # @pataknight/backstage-plugin-rhdh-qe-theme
 
+## 0.4.0
+
+### Minor Changes
+
+- 7cb7e7c: Release of the rhdh qe theme plugin for qe testing of the RHDH capability to dynamically load in themes from plugins
+
 ## 0.3.0
 
 ### Minor Changes
