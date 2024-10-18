@@ -1,5 +1,5 @@
 import { createUnifiedTheme, palettes } from '@backstage/theme';
-import { createPagesTheme } from './pageTheme';
+import { createPagesDarkTheme } from './pageDarkTheme';
 
 /**
  * Definition for the dark palette variant
@@ -29,5 +29,5 @@ const palette = {
 export const darkTheme = createUnifiedTheme({
   palette,
   defaultPageTheme: 'home',
-  pageTheme: createPagesTheme(),
+  pageTheme: createPagesDarkTheme(),
 });

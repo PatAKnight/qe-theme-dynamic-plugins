@@ -1,5 +1,5 @@
 import { createUnifiedTheme, palettes } from '@backstage/theme';
-import { createPagesTheme } from './pageTheme';
+import { createPagesLightTheme } from './pageLightTheme';
 
 /**
  * Definition for the light palette variant
@@ -29,5 +29,5 @@ const palette = {
 export const lightTheme = createUnifiedTheme({
   palette,
   defaultPageTheme: 'home',
-  pageTheme: createPagesTheme(),
+  pageTheme: createPagesLightTheme(),
 });
