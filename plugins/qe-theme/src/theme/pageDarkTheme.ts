@@ -6,12 +6,12 @@ import { PageTheme, genPageTheme, shapes } from '@backstage/theme';
  * @returns
  */
 export function createPagesDarkTheme(): Record<string, PageTheme> {
-  const gradientLeft = 'rgb(0, 0, 208)';
-  const gradientRight = 'rgb(255, 246, 140)';
+  const gradientLeft = 'rgb(255, 246, 140)';
+  const gradientRight = 'rgb(0, 0, 208)';
   return {
     home: genPageTheme({
       colors: [gradientRight, gradientLeft],
-      shape: shapes.wave,
+      shape: 'none',
     }),
     app: genPageTheme({
       colors: [gradientRight, gradientLeft],

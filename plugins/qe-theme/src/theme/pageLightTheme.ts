@@ -11,7 +11,7 @@ export function createPagesLightTheme(): Record<string, PageTheme> {
   return {
     home: genPageTheme({
       colors: [gradientRight, gradientLeft],
-      shape: shapes.wave,
+      shape: 'none',
     }),
     app: genPageTheme({
       colors: [gradientRight, gradientLeft],
